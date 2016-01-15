@@ -6,7 +6,7 @@ This is a web page that uses JavaScript and jQuery to tell you what Vacation is 
 
 ###GitHub Pages URL
 
-[brookehurford.github.io/Vacation-Suggester]
+[Vacation Suggester Web Page] (brookehurford.github.io/Vacation-Suggester)
 
 ###Legal
 
