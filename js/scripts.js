@@ -8,18 +8,27 @@ $(document).ready(function(){
       userAnswer += parseInt($("select#" + field).val());
     });
 
-    if (userAnswer <= 7 ) {
+    if (userAnswer <= 5 ) {
       $("#whistler").show();
+      $("#anotherSuggestion").show();
+      $(this).remove();
     }
-    else if (userAnswer >= 8 && userAnswer <= 11) {
+    else if (userAnswer >= 6 && userAnswer <= 10) {
         $("#shasta").show();
+        $("#anotherSuggestion").show();
+        $(this).remove();
     }
-    else if (userAnswer >= 12 && userAnswer <= 17) {
+    else if (userAnswer >= 11 && userAnswer <= 16) {
         $("#london").show();
+        $("#anotherSuggestion").show();
+        $(this).remove();
     }
     else {
       $("#thailand").show();
+      $("#anotherSuggestion").show();
+      $(this).remove();
     }
+
     event.preventDefault();
   });
 });
