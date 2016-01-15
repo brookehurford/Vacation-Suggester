@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
+    <link rel="stylesheet" href="css/styles.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
+    <script src="js/jquery-1.12.0.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Vacation Suggester</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Vacation Suggester</h1>
+      <h3>You're itching to get away, but not sure where to go? Let me help!</h3>
+      <p>Answer a few questions below, and get on our way to your next adventure.</p>
+      <hr>
+        <div id="blanks">
+        <form id="vacationSuggester">
+          <div class="form-group">
+            <label for="activity">What outdoor activity would you most enjoy doing?</label>
+            <select id="activity" class="form-control" data-style="btn-warning">
+              <option value="3">Snowboarding</option>
+              <option value="2">Riding Jetskis</option>
+              <option value="1">See a play in the park</option>
+              <option value="1">Scuba Diving</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="farToTravel">How far would you like to travel?</label>
+            <select id="farToTravel" class="form-control">
+              <option value="1">Somewhere I can drive to.</option>
+              <option value="4">If a plane can get there, I&#39;m in.</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="afterExplore">What do you want to do after a long day of exploring?</label>
+            <select id="afterExplore" class="form-control">
+              <option value="4">Relax in a hammock outside your beach hut</option>
+              <option value="3">Walk down to the closest pub</option>
+              <option value="2">Dangle your feet off the end of the houseboat</option>
+              <option value="1">Chill at the lodge and make new friends</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="food">What type of food do you want to eat on your getaway?</label>
+            <select id="food" class="form-control">
+              <option value="1">Soup, or anything to keep warm</option>
+              <option value="2">Anything off the BBQ</option>
+              <option value="3">Fish and Chips</option>
+              <option value="4">Pad Thai</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="cocktails">What kind of cocktail do you want to drink on your adventure?</label>
+            <select id="cocktails" class="form-control">
+              <option value="4">Lemongrass Mojio</option>
+              <option value="3">Just beer, lots of beer</option>
+              <option value="2">Mudslides</option>
+              <option value="1">Spanish Coffee</option>
+            </select>
+          </div>
+          <div class="centerButton">
+          <button type="submit" class="btn">Tell me where to go!</button>
+          </div>
+        </form>
+      </div>
+      <div id="thailand">
+        <h2>Thailand!</h2>
+      </div>
+
+      <div id="london">
+        <h2>London!</h2>
+      </div>
+
+      <div id="shasta">
+        <h2>Mt. Shasta!</h2>
+      </div>
+
+      <div id="whistler">
+        <h2>Whistler!</h2>
+      </div>
+
+    </div>
+  </body>
+</html>
