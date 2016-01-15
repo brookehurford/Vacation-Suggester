@@ -1,11 +1,11 @@
 $(document).ready(function(){
 
-  $("#blanks form").submit(function(event) {
-    var blanksArray = ["activity", "farToTravel", "afterExplore", "food", "cocktails"];
+  $("#form-container form").submit(function(event) {
+    var fields = ["activity", "farToTravel", "afterExplore", "food", "cocktails"];
     var userAnswer = 0;
 
-    blanksArray.forEach(function(blank) {
-      userAnswer += parseInt($("select#" + blank).val());
+    fields.forEach(function(field) {
+      userAnswer += parseInt($("select#" + field).val());
     });
 
     if (userAnswer <= 7 ) {

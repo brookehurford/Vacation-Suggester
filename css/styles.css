@@ -2,7 +2,16 @@
   display: none;
 }
 
+h1, h3, p {
+  text-align: center;
+}
+
 .centerButton {
   margin: auto;
   text-align: center;
+}
+
+.blueBackground {
+  background-color: #CFFFF4;
+  padding-bottom: 50px;
 }
