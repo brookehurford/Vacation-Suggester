@@ -9,22 +9,22 @@ $(document).ready(function(){
     });
 
     if (userAnswer <= 5 ) {
-      $("#whistler").show();
+      $("#whistler").fadeIn();
       $("#anotherSuggestion").show();
       $(this).remove();
     }
-    else if (userAnswer >= 6 && userAnswer <= 10) {
-        $("#shasta").show();
+    else if (userAnswer >= 6 && userAnswer <= 13) {
+        $("#shasta").fadeIn();
         $("#anotherSuggestion").show();
         $(this).remove();
     }
-    else if (userAnswer >= 11 && userAnswer <= 16) {
-        $("#london").show();
+    else if (userAnswer >= 14 && userAnswer <= 16) {
+        $("#london").fadeIn();
         $("#anotherSuggestion").show();
         $(this).remove();
     }
     else {
-      $("#thailand").show();
+      $("#thailand").fadeIn();
       $("#anotherSuggestion").show();
       $(this).remove();
     }
