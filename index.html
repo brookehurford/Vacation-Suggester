@@ -3,7 +3,7 @@
   <head>
     <link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
     <link rel="stylesheet" href="css/styles.css" media="screen">
-    <link href='https://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700,300italic|Roboto+Condensed' rel='stylesheet' type='text/css'>
     <script src="js/jquery-1.12.0.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
@@ -67,6 +67,7 @@
                 <div class="form-group">
                   <label for="activity">What outdoor activity would you most enjoy doing?</label>
                   <select id="activity" class="form-control" data-style="btn-warning">
+                    <option value"" disable selected>- Select One -</option>
                     <option value="3">Snowboarding</option>
                     <option value="2">Riding Jetskis</option>
                     <option value="1">See a play in the park</option>
@@ -77,6 +78,7 @@
                 <div class="form-group">
                   <label for="farToTravel">How far would you like to travel?</label>
                   <select id="farToTravel" class="form-control">
+                    <option value"" disable selected>- Select One -</option>
                     <option value="1">Somewhere I can drive to.</option>
                     <option value="4">If a plane can get there, I&#39;m in.</option>
                   </select>
@@ -85,6 +87,7 @@
                 <div class="form-group">
                   <label for="afterExplore">What do you want to do after a long day of exploring?</label>
                   <select id="afterExplore" class="form-control">
+                    <option value"" disable selected>- Select One -</option>
                     <option value="4">Relax in a hammock outside your beach hut</option>
                     <option value="3">Walk down to the closest pub</option>
                     <option value="2">Dangle your feet off the end of the houseboat</option>
@@ -95,6 +98,7 @@
                 <div class="form-group">
                   <label for="food">What type of food do you want to eat on your getaway?</label>
                   <select id="food" class="form-control">
+                    <option value"" disable selected>- Select One -</option>
                     <option value="1">Soup, or anything to keep warm</option>
                     <option value="2">Anything off the BBQ</option>
                     <option value="3">Fish and Chips</option>
@@ -105,6 +109,7 @@
                 <div class="form-group">
                   <label for="cocktails">What kind of cocktail do you want to drink on your adventure?</label>
                   <select id="cocktails" class="form-control">
+                    <option value"" disable selected>- Select One -</option>
                     <option value="4">Lemongrass Mojio</option>
                     <option value="3">Just beer, lots of beer</option>
                     <option value="2">Mudslides</option>
@@ -112,24 +117,33 @@
                   </select>
                 </div>
                 <div class="centerButton">
-                <button type="submit" class="btn">Tell me where to go!</button>
+                <button type="submit" class="btn btn-lg">Tell me where to go!</button>
                 </div>
               </form>
             </div>
+            <hr>
             <div id="thailand">
               <h2>Thailand!</h2>
+              <p>Amazing city life, unbelieavable nature, sandy beaches - you will never get enough of this place.</p>
+              <a class="btn btn-primary btn-lg" href="https://www.expedia.com/Flights" role="button" target="_blank">Book your flight!</a>
             </div>
 
             <div id="london">
               <h2>London!</h2>
+              <p>Such unbelievable sites, and a culture that you will fall in love with. No go on, have the trip of a lifetime!</p>
+              <a class="btn btn-primary btn-lg" href="https://www.expedia.com/Flights" role="button" target="_blank">Book your flight!</a>
             </div>
 
             <div id="shasta">
               <h2>Mt. Shasta!</h2>
+              <p>By the sounds of it you'd have a great time hanging on the lake for a week, it's seriously majestic.</p>
+              <a class="btn btn-primary btn-lg" href="https://silverthornresort.com/" role="button" target="_blank">Book a houseboat!</a>
             </div>
 
             <div id="whistler">
               <h2>Whistler!</h2>
+              <p>By the sounds of it you'd enjoy the kick ass Canadian town. Hit the slopes and then do some bar hopping through the village.</p>
+                <a class="btn btn-primary btn-lg" href="https://www.airbnb.com/s/Whistler--Canada" role="button" target="_blank">Book a place!</a>
             </div>
           </div>
         </div>
